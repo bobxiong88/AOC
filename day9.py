@@ -18,7 +18,7 @@ while True:
     if not line:break
     a,b = line.split()
     ins.append((a,int(b)))
-mx = 10000
+mx = 1000
 grid = [[0]*mx for i in range(mx)]
 kt = [[mx//2,mx//2] for i in range(10)]
 grid[mx//2][mx//2] = 1

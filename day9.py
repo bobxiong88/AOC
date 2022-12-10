@@ -3,7 +3,6 @@ import sys
 stdprint = print
 stdinput = input
 
-
 fin = open("in.txt")
 fout = open("out.txt", "w")
 
